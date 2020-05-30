@@ -15,6 +15,12 @@ const BlogPost = (props) => {
           <div className='postImageContainer'>
             <img src={require('../../blogPostImages/memories-from.jpg')} alt='Post Image' />
           </div>
+
+          <div className='postContent'>
+            <h3>Post Title</h3>
+            <p>lorem ipsim</p>
+          </div>
+
         </Card>
       </div>
   )
