@@ -1,13 +1,12 @@
 import React from 'react'
 import './style.css'; 
-import Card from './UI/Card'; 
 
-const Hero =(props) => {
+const Card = (props) => {
   return (
-    <div className='card'>
+    <div className='card' style={{width: props.width ? props.width: '100%'}}>
       {props.children}
     </div>
   )
 } 
 
-export default index
+export default Card
