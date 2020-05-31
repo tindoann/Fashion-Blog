@@ -5,8 +5,8 @@ import './style.css';
 const Post = () => {
   return (
     <section className='container'>
-    <BlogPost />
-    <Sidebar />
+    <BlogPost {...props} />
+    <Sidebar {...props} />
     </section>
   )
 }
