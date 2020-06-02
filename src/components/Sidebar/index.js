@@ -27,7 +27,7 @@ const Sidebar = (props) => {
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGAb43NxZswWRLw9RoxC8YwykXlLy_efq2r674Xj0ffRR3D-0P" alt="" />
                 </div>
                 <div className="cardBody">
-                    <p className="personalBio">My name is Rizwan  Khan I am a software developer specialization in Front end developement....:</p>
+                    <p className="personalBio">My name is Tin:</p>
                 </div>
             </Card>
 
