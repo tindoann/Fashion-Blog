@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Home from './container/Home'; 
-import Header from './components/Header'; 
-import Hero from './component/Hero'; 
-import {BrowserRouter as Router, Switch} from 'react-router-dom'; 
-
+import Home from './containers/Home';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ContactUS from './containers/ContactUS'; 
+import Post from './containers/Post';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
     <Hero />
 
     <Router path='/' exact component={Home} />
-    <Route path='/contact-us' component={ContactUs}/>
-    <Route path='/post/postId' component={Post}/>
+    <Route path='/contact-us' component={ContactUS}/>
+    <Route path="/post/:slug" component={Post} />
     
 
   </div>

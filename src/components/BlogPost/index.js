@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Card from '../UI/Card'; 
 import './style.css'; 
-import data from '../../data/blog.json'; 
+import blogPost from '../../data/blog.json';
 
 const BlogPost = (props) => {
 

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './style.css';
 import Card from '../../components/UI/Card';

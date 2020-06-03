@@ -1,13 +1,13 @@
-import React from 'react';
-import './style.css';
+import React from 'react'
+import './style.css'; 
 
-const Logo = (props) => {
-  return(
-    <div className="logo">
-        <a href="#">Tin</a>
+const Logo =(props) => {
+  return (
+    <div className='logo'>
+      <a href='#'>Cat</a>
     </div>
-   )
-
- }
+  )
+}
 
 export default Logo
+
